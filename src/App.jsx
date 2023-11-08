@@ -5,10 +5,10 @@ import Transactions from './components/Transactions/Transactions';
 
 import user from './components/Data/user.json';
 import data from './components/Data/data.json';
-import friends from './components/Data/friends.json';
-import transactions from './components/Data/transactions.json';
+//import friends from './components/Data/friends.json';
+//import transactions from './components/Data/transactions.json';
 
-import styles from './App.module.css';
+//import styles from './App.module.css';
 
 export function App() {
   document.title = 'HW React 1';
