@@ -1,6 +1,7 @@
-import PropTypes from 'prop-types';
-import styles from './Statistics.module.css';
+//import PropTypes from 'prop-types';
+//import styles from './Statistics.module.css';
 
+/*
 function Statistics({ title, stats }) {
   const { id, label, percentage } = stats;
 
@@ -10,6 +11,7 @@ function Statistics({ title, stats }) {
     </div>
   );
 }
+
 
 Statistics.propTypes = {
   title: PropTypes.string.isRequired,
@@ -21,3 +23,5 @@ Statistics.propTypes = {
 };
 
 export default Statistics;
+
+*/
