@@ -8,12 +8,21 @@ function Profile({ user }) {
     <div className={styles.profile}>
       <img src={avatar} alt={username} />
       <h2>{username}</h2>
-      <p>Tag: {tag}</p>
-      <p>Location: {location}</p>
-      <div>
-        <p>Followers: {stats.followers}</p>
-        <p>Views: {stats.views}</p>
-        <p>Likes: {stats.likes}</p>
+      <p className={styles.tag}>{tag}</p>
+      <p className={styles.location}>{location}</p>
+      <div className={styles.stats}>
+        <div className={styles.followers}>
+          <p className={styles.followers_title}>Followers</p>
+          {stats.followers}
+        </div>
+        <div className={styles.views}>
+          <p className={styles.views_title}>Views</p>
+          {stats.views}
+        </div>
+        <div className={styles.likes}>
+          <p className={styles.likes_title}>Likes</p>
+          {stats.likes}
+        </div>
       </div>
     </div>
   );

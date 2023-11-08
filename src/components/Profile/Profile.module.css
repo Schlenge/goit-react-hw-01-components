@@ -1,14 +1,16 @@
 .profile {
   border: 1px solid #ccc;
   border-radius: 8px;
-  padding: 20px;
+  padding-top: 20px;
   text-align: center;
-  width: 300px; /* Ajustați dimensiunea cardului după preferință */
+  width: 260px;
+  height: 340px; /* Ajustați dimensiunea cardului după preferință */
   margin: 0 auto;
+  box-shadow: 5px 5px lightblue;
 }
 
 .profile img {
-  width: 100px; /* Ajustați dimensiunea imaginii/avatarului după preferință */
+  width: 120px; /* Ajustați dimensiunea imaginii/avatarului după preferință */
   border-radius: 50%; /* Pentru a rotunji imaginea */
   margin-bottom: 10px;
 }
@@ -21,11 +23,32 @@
   margin: 5px 0;
 }
 
-.profile .stats {
-  display: flex;
-  justify-content: space-around;
+.tag,
+.location {
+  color: #c5b8b8;
 }
 
-.profile .stats p {
-  flex: 1;
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+  background: #c5b8b8;
+  border-radius: 0 0 8px 8px;
+}
+
+.followers,
+.views,
+.likes {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  color: black;
+}
+
+.followers_title,
+.views_title,
+.likes_title {
+  font-weight: bold;
 }
