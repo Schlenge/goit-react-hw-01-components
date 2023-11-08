@@ -1,0 +1,31 @@
+.profile {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  width: 300px; /* Ajustați dimensiunea cardului după preferință */
+  margin: 0 auto;
+}
+
+.profile img {
+  width: 100px; /* Ajustați dimensiunea imaginii/avatarului după preferință */
+  border-radius: 50%; /* Pentru a rotunji imaginea */
+  margin-bottom: 10px;
+}
+
+.profile h2 {
+  font-size: 20px;
+}
+
+.profile p {
+  margin: 5px 0;
+}
+
+.profile .stats {
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile .stats p {
+  flex: 1;
+}
