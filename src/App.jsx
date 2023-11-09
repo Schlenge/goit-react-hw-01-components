@@ -11,7 +11,6 @@ import transactions from './components/Data/transactions.json';
 import styles from './App.module.css';
 
 export function App() {
-  document.title = 'HW React 1';
   return (
     <div className={styles.app}>
       {' '}
